@@ -1,0 +1,179 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    
+}
+
+
+body{
+    background-color:#fafafa;
+    width: 89vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: var(--font-family-system);
+}
+
+
+.insta-logo{
+    padding: 0px;
+    margin: 20px;
+    margin-bottom: 34px;
+    width: 298px;
+    margin-top: -15px;
+}
+ 
+.container-imagens{
+    position: relative;
+}
+
+
+.img-celular{
+    width: 612px;
+
+}
+
+
+
+
+.imagem-celular{
+    height: 720px;
+    position: absolute;
+    left: 206px;
+    top: 31px;
+    width: 331px;
+    transition: opacity 1s ease-in-out;
+}
+
+
+
+
+
+.box{
+    width: 350px;
+
+    
+}
+
+.box-2{
+    height: 526px;
+    display: flex;
+    width: 425px;
+    flex-direction: column;
+    border: 1px solid #dbdbdb;
+    background: #ffff;
+    padding: 62px 41px 20px 40px;
+    margin-top: -54px;
+    
+}
+
+input{
+    height: 63px;
+    outline: none;
+    border: 1px solid #dbdbdb;
+    border-radius: 3px;
+    padding-left: 5px;
+    margin-top: 5px;
+    color:black;
+    background: #fafafa;
+    font-size: 15px;
+
+
+}
+
+button{
+    background: #0095f6;
+    height: 44px;
+    border-radius: 11px;
+    border: none;
+    color: #ffff;
+    margin-top: 20px;
+    cursor: pointer;
+    font-size: 20px;
+}
+
+
+.ou{
+    text-align: center;
+    margin-top: 24px;
+    color: #808080;
+    line-height:bold ;
+    font-size: 20px;
+    
+    
+}
+
+.login-facebook{
+    color: #385185;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    cursor: pointer;
+    font-size: 23px;
+    
+}
+
+.esqueceu-senha{
+    color: rgb(var(--ig-link));
+    text-align: center;
+    cursor: pointer;
+    font-size: 18px;
+    line-height: bold;
+    color: 	#191970;
+
+}
+
+.conteiner-cadastro{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #dbdbdb ;
+    width: 431px;
+    height: 60px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 20px;
+   
+}
+
+.link-cadastro{
+    color:#0095f6;
+    line-height: bold;
+    margin-left: 6px;
+    font-size: 21px;
+    cursor: pointer;
+}
+
+.aplicativo{
+   font-size: 25px;
+   margin-top: 20px;
+   margin-bottom: 20px;
+   text-align: center;
+   margin-left: 73px;
+   color: #1C1C1C;
+
+}
+
+
+.caixa-5{
+    display: flex;
+    justify-content: center;
+    margin-left: 51px;
+
+    
+}
+
+
+
+
+.google{
+    width: 150px;
+    margin-left: 30px;
+    cursor: pointer;
+
+
+}
+
